@@ -18,7 +18,7 @@ body {
 }
 
 .text-center {
-    text-align: center;
+    text-align: left;
 }
 
 .text-green {
@@ -45,8 +45,8 @@ body {
 }
 
 .nav-logo img {
-    height: 40px;
-    width: 150px;
+    height: 80px;
+    width: 180px;
     object-fit: contain;
 }
 
@@ -196,6 +196,7 @@ body {
     padding: 32px;
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    align-content: center;
 }
 
 .card-icon {
@@ -276,10 +277,12 @@ body {
 }
 
 .footer-logo {
-    height: 40px;
-    width: 150px;
+    height: 100px;
+    width: 200px;
     object-fit: contain;
     margin-bottom: 16px;
+    padding-right: 80px;
+    align-content: start;
 }
 
 .footer-title {
